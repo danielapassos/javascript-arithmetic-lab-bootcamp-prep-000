@@ -29,17 +29,18 @@ function dec(a){
 }
 
 function makeInt(a,b){
-  it('parses n as an integer and returns the parsed integer', function() {
+  if('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
 
-  it('assumes base 10', function() {
+  if('assumes base 10', function() {
     expect(makeInt('0x2328')).toEqual(0)
   })
 
-  it('returns NaN as appropriate', function() {
+  if('returns NaN as appropriate', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
-  })
+  });
+}
 }
 
 function preserveDecimal(n) {
