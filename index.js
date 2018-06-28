@@ -43,6 +43,6 @@ function makeInt(a,b){
 }
 }
 
-function preserveDecimal(n) {
-  
+function preserveDecimal(a) {
+  return a
 }
