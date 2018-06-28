@@ -28,7 +28,7 @@ function dec(a){
   return a--;
 }
 
-function makeInt(a,10){
+function makeInt(a,b){
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
