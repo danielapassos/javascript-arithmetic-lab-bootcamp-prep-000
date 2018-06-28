@@ -28,10 +28,10 @@ function dec(a){
   return a--;
 }
 
-function makeInt(a,b){
-  return parseInt(a,)
+function makeInt(a){
+  return parseInt(a,10);
 }
 
 function preserveDecimal(a) {
-  return a
+  return parseFloat(a)
 }
